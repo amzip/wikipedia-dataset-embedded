@@ -34,7 +34,7 @@ The original dataset is the *Wikipedia 2023* parquet dataset available on Huggin
 ### 🔢 Sampling Strategy  
 From each original `.parquet` file, the **first 12,000 entries** were selected.
 
-Total embedded items: 12,000 entries × 40 parquet files = 480,000 embedded elements
+Total embedded items: 12,000 entries × 40 parquet files = 480,000 embedded elements, ≈ 1,000,000 embedding vectors.
 
 ### ✂️ Text Chunking  
 Each Wikipedia article was split into overlapping token chunks:
