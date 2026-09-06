@@ -45,12 +45,12 @@ Each Wikipedia article was split into overlapping token chunks:
 This improves retrieval granularity and embedding consistency.
 
 ### 🧬 Embeddings  
-Embeddings were generated using: nomic-embed-text-v2-moe
-
+Embeddings were generated using: nomic-embed-text-v2-moe (https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe-GGUF)
 
 Model characteristics:
 
-- 📏 **Vector dimension:** 768  
+- 📏 **Vector dimension:** 768
+- 🔢 **Quantization type:** Full FP16 weights
 - ⚙️ Mixture‑of‑Experts routing  
 - 🚀 Optimized for retrieval and semantic similarity  
 
